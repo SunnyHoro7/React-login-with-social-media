@@ -4,8 +4,8 @@ const passport = require("passport");
 const GOOGLE_CLIENT_ID =
   "59551675336-nskrjk3mvi3oj3esbf393ko712kqao51.apps.googleusercontent.com";
 const GOOGLE_CLIENT_SECRET = "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";
-const GITHUB_CLIENT_ID ="24d85a04b62b1baaf790";
-const GITHUB_CLIENT_SECRET = "7015522ce1eaf70df9ab6453d424c9e9835c42b9";
+GITHUB_CLIENT_ID ="24d85a04b62b1baaf790";
+GITHUB_CLIENT_SECRET = "0b523e769c7fc43bceb31a5f7fe2f3e71e5510af";
 
 passport.use(
   new GoogleStrategy(
