@@ -1,0 +1,102 @@
+.top-nav {
+    width: 100%;
+    max-width: 1440px;
+    height: 132px;
+    background: #e61d1d;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+.title {
+  position: absolute;
+  width: 65px;
+  height: 30px;
+  left: 550px;
+  top: 20px;
+
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height */
+
+  color: #22202e;
+}
+
+/* main-links.css */
+
+/* Auto layout */
+.main-links {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 44px;
+  list-style-type: none;
+
+  position: absolute;
+  width: 675px;
+  height: 22px;
+  left: 300px;
+  top: 90px;
+}
+
+.divider {
+  position: absolute;
+  height: 0px;
+  left: 1.94%;
+  right: 1.81%;
+  top: 70px;
+
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Search */
+.search-icon {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 28px;
+  top: 26px;
+  background: #ffffff;
+  background-blend-mode: multiply;
+}
+/* Shopping Cart */
+.shopping-cart-icon {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 1200px;
+  top: 26px;
+  background: #ffffff;
+  background-blend-mode: multiply;
+}
+/* User Avatar */
+.user-avatar-icon {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 1232px;
+  top: 26px;
+  background: #ffffff;
+  background-blend-mode: multiply;
+}
+
+/* List Items */
+.list-item {
+  width: 70px;
+  height: 22px;
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #726e8d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
